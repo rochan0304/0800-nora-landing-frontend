@@ -1,0 +1,43 @@
+.navbarContainer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 1px 0px 4px rgb(0, 0, 0, 20%);
+}
+
+.logo {
+    width: 100px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #FFE13A;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: black;
+    color: #FFE13A;
+}
+
+.boton:active {
+    background-color: white;
+    color: black;
+}
+
+.iconPhone {
+    font-size: 16px;
+}

@@ -1,0 +1,44 @@
+.formsSection {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.optionButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    background-color: #1B1B1B;
+    padding: 10px 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    color: white;
+}
+
+.hiddenRadio {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hiddenRadio:checked + .button {
+    background-color: #FFE13A;
+}

@@ -1,0 +1,63 @@
+.confirmationPage {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.confirmationSection {
+    width: 100%;
+    background-color: #FFE13A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+    flex: 1;
+}
+
+.iconCheck {
+    font-size: 200px;
+}
+
+.pasosSection {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.pasoContainer {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.iconPaso {
+    font-size: 20px;
+}
+
+.buttonBack {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #FFE13A;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.buttonBack:hover {
+    background-color: rgb(30, 30, 30);
+    color: #FFE13A;
+}

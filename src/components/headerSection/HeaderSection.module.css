@@ -1,0 +1,15 @@
+.headerSection {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.parrafo {
+    font-size: 14px;
+}

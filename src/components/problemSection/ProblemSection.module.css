@@ -1,0 +1,112 @@
+.problemSection {
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.clientSection {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 205px;
+    background-color: #FFE13A;
+    z-index: 1;
+}
+
+.clientImg {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    z-index: 1;
+    min-width: 0;
+    width: 100px;
+}
+
+.img {
+    max-width: 1000px;
+    height: 290px;
+}
+
+.infoContainer {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    z-index: 999;
+}
+
+.infoContainer :global(h2) {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.itemContainer :global(div) {
+    border-radius: 100%;
+    background-color: black;
+    color: #FFE13A;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopSection {
+    padding: 0 20px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.infoShopContainer {
+    padding: 10px 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    z-index: 999;
+    background-color: black;
+    font-size: 14px;
+}
+
+.infoShopContainer :global(h2) {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.shopImg {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 140px;
+    min-width: 0;
+    z-index: 1;
+}
+.imgShop {
+    max-width: 200px;
+}
+.img {
+    max-width: 1000px;
+    height: 290px;
+}
