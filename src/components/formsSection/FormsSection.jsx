@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./FormsSection.module.css";
-import FormClient from "./forms/formClient";
+import FormClient from "./forms/FormClient";
 import FormShop from "./forms/FormShop";
 import { BsShopWindow } from "react-icons/bs";
 import { IoBagHandleOutline } from "react-icons/io5";
