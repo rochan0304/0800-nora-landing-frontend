@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import Navbar from "../components/navbar/Navbar";
 import HeaderSection from "../components/headerSection/HeaderSection";
 import ProblemSection from "../components/problemSection/ProblemSection";
-import BeneficiosSection from "../components/beneficiosSection/beneficiosSection";
+import BeneficiosSection from "../components/beneficiosSection/BeneficiosSection";
 import FormsSection from "../components/formsSection/FormsSection";
 import VideoSection from "../components/videoSection/VideoSection";
 
