@@ -26,13 +26,22 @@ function ConfirmationPage() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', width: '100%', maxWidth: '600px'}}>
                     <h2 style={{ fontSize: '32px', fontWeight: '900', color: 'white'}}>Siguientes <br /> pasos.</h2>
                     <div className={ styles.pasoContainer }>
-                        <LuCheck className={ styles.iconPaso }/> <p>Revisaremos tu informacion</p>
+                        <div className={ styles.iconContainer }>
+                            <LuCheck className={ styles.iconPaso }/>
+                        </div>
+                        <p>Revisaremos tu informacion</p>
                     </div>
                     <div className={ styles.pasoContainer }>
-                        <CiMail className={ styles.iconPaso }/> <p>Te enviaremos un correo de confirmación</p>
+                        <div className={ styles.iconContainer }>
+                            <CiMail className={ styles.iconPaso }/>
+                        </div>
+                        <p>Te enviaremos un correo de confirmación</p>
                     </div>
                     <div className={ styles.pasoContainer }>
-                        <PiHeadset className={ styles.iconPaso }/> <p>Un asesor se contactará contigo</p>
+                        <div className={ styles.iconContainer }>
+                            <PiHeadset className={ styles.iconPaso }/>
+                        </div>
+                        <p>Un asesor se contactará contigo</p>
                     </div>
                 </div>
                 <a className={ styles.buttonBack } href='/'>

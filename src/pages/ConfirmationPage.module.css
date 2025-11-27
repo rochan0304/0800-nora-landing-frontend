@@ -42,8 +42,14 @@
     font-size: 14px;
 }
 
+.iconContainer {
+    padding: 5px;
+    background-color: #FFE13A;
+    border-radius: 100%;
+    color: black;
+}
 .iconPaso {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .buttonBack {

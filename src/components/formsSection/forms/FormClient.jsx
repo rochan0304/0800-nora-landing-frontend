@@ -61,7 +61,6 @@ function FormClient() {
         } catch (err) {
             if (err.response && err.response.data && err.response.data.errors) {
                 setErrors(err.response.data.errors);
-                console.log(err.response.data.errors);
             }
         }
     };
